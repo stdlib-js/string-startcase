@@ -149,6 +149,23 @@ Beep Boop Foo Bar
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/string/lowercase`][@stdlib/string/lowercase]: convert a string to lowercase.
+-   [`@stdlib/string/uppercase`][@stdlib/string/uppercase]: convert a string to uppercase.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -205,6 +222,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-startcase/main/LICENSE
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
+
+<!-- <related-links> -->
+
+[@stdlib/string/lowercase]: https://github.com/stdlib-js/string-lowercase
+
+[@stdlib/string/uppercase]: https://github.com/stdlib-js/string-uppercase
+
+<!-- </related-links> -->
 
 </section>
 
