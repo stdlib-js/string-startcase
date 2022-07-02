@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.startcase;
+})();
 })();
 </script>
 ```
@@ -90,6 +92,7 @@ var str = startcase( 'beep boop a foo bar' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var str = startcase( 'beep boop foo bar' );
 // returns 'Beep Boop Foo Bar'
@@ -106,6 +109,7 @@ str = startcase( '$**_beep_BoOp_**$' );
 str = startcase( '' );
 // returns ''
 
+})();
 })();
 </script>
 </body>
@@ -206,9 +210,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/string/lowercase]: https://github.com/stdlib-js/string-lowercase/tree/umd
+[@stdlib/string/lowercase]: https://github.com/stdlib-js/string-lowercase/tree/umd/tree/umd
 
-[@stdlib/string/uppercase]: https://github.com/stdlib-js/string-uppercase/tree/umd
+[@stdlib/string/uppercase]: https://github.com/stdlib-js/string-uppercase/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
