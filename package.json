@@ -44,8 +44,8 @@
     "@stdlib/cli-ctor": "^0.0.x",
     "@stdlib/fs-read-file": "^0.0.x",
     "@stdlib/process-read-stdin": "^0.0.x",
-    "@stdlib/regexp-whitespace": "^0.0.x",
     "@stdlib/streams-node-stdin": "^0.0.x",
+    "@stdlib/string-base-startcase": "^0.0.x",
     "@stdlib/string-format": "^0.0.x"
   },
   "devDependencies": {
@@ -53,7 +53,6 @@
     "@stdlib/assert-is-windows": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/process-exec-path": "^0.0.x",
-    "@stdlib/string-from-code-point": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "proxyquire": "^2.0.0",
