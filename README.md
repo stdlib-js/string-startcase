@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-startcase/tags). For example,
+
+```javascript
 import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@v0.1.0-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var str = startcase( 'beep boop a foo bar' );
 <body>
 <script type="module">
 
-import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@v0.1.0-esm/index.mjs';
+import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@esm/index.mjs';
 
 var str = startcase( 'beep boop foo bar' );
 // returns 'Beep Boop Foo Bar'
