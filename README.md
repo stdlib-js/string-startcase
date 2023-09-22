@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@deno/mod.js';
+import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@v0.1.0-deno/mod.js';
 ```
 
 #### startcase( str )
@@ -71,7 +71,7 @@ var str = startcase( 'beep boop a foo bar' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@deno/mod.js';
+import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-startcase@v0.1.0-deno/mod.js';
 
 var str = startcase( 'beep boop foo bar' );
 // returns 'Beep Boop Foo Bar'
