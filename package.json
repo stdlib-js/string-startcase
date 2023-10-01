@@ -46,7 +46,7 @@
     "@stdlib/process-read-stdin": "^0.1.0",
     "@stdlib/streams-node-stdin": "^0.1.0",
     "@stdlib/string-base-startcase": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0"
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.1.0",
