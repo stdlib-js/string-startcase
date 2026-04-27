@@ -27,7 +27,7 @@ var readFileSync = require( '@stdlib/fs-read-file' ).sync;
 var CLI = require( '@stdlib/cli-ctor' );
 var stdin = require( '@stdlib/process-read-stdin' );
 var stdinStream = require( '@stdlib/streams-node-stdin' );
-var startcase = require( './../lib' );
+var startcase = require( '@stdlib/string-startcase' );
 
 
 // MAIN //
